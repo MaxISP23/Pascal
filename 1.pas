@@ -20,6 +20,8 @@ begin
        x2 := (-b - d2) / (2 * a);
        writeln('x1 = ', x1);
        writeln('x2 = ', x2);
+      else begin
+       writeln('Нет корней');
      end;
    end;
  end.
