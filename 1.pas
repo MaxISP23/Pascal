@@ -1,3 +1,5 @@
+program work1;
+
 var a, b, c, d1, d2, x1, x2 :real;
 
 begin 
