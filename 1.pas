@@ -12,7 +12,7 @@ begin
    if d1 = 0 then begin 
      x1 := -b / (2 * a);
      writeln('x = ', x1); 
-   end; 
+   end;
    
    if d1 > 0 then begin
      if a <> 0 then begin
@@ -22,7 +22,7 @@ begin
        x2 := (-b - d2) / (2 * a);
        writeln('x1 = ', x1);
        writeln('x2 = ', x2);
-      else begin
+     end else begin
        writeln('Нет корней');
      end;
    end;
