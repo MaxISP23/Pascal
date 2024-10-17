@@ -1,4 +1,4 @@
-program work17;
+program work_string_list;
 
 var 
   text : list<string>;
@@ -16,7 +16,7 @@ begin
       break;
     end else begin
       t := uppercase(s[1]);
-      if (length(s) >= 2) then begin
+      if (length(s) > 1) then begin
         t := t + copy(s, 2, length(s) - 1)
       end;
       text.Add(i + '. ' + t);
