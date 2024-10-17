@@ -15,6 +15,6 @@ begin
       x := x + 1;
     end;
   end;
-  b := b + copy(a, i, x) + ' ';
+  b := b + copy(a, i, x);
   write(b);
 end.
